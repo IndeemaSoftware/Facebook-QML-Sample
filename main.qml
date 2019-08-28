@@ -48,7 +48,7 @@ Window {
 
         onClicked: {
             if (facebook.isLoggedIn()) {
-                facebook.share("Test", "Test", "https://github.com/mnafees", facebook.getProfilePictureUri(200, 200))
+                console.log("Logged in")
             }
         }
     }
